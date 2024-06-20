@@ -443,3 +443,53 @@ details > div {
 details > div > span {
   font-weight: bold;
 }
+
+footer {
+  background-color: #0d0d0d;
+  text-align: center;
+  padding: 80px 80px 30px 80px;
+}
+
+#footer-logo {
+  margin: 30px;
+}
+
+#footer-link {
+  margin: 0 0 50px 0;
+}
+
+#footer-link > a {
+  text-decoration: none;
+  margin: 10px;
+}
+
+#footer-link > a:link {
+  color: #ffffff;
+}
+
+#footer-link > a:visited {
+  color: #ffffff;
+}
+
+#footer-link > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#footer-link > a:active {
+  color: #ffffff;
+}
+
+#sns-footer {
+  text-align: left;
+  width: 100%;
+}
+
+#sns-footer > a {
+  margin: 0 30px 0 0;
+}
+
+#copyright {
+  color: #ffffff;
+  float: right;
+}
