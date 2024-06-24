@@ -647,4 +647,57 @@ PC用のスタイル
   #s2dgs {
     width: 100%;
   }
+
+  /* プロダクト */
+  #product {
+    background-color: #fafafa;
+    padding-top: 10px;
+  }
+
+  #product > h2 {
+    margin-left: 20px;
+  }
+
+  /* 外枠 */
+  /* 左右のカラム　スマホでは縦並び */
+  #product-left,
+  #product-right {
+    margin: 0 20px;
+  }
+
+  /* 画像＋説明の枠 */
+  #product-left > div,
+  #product-right > div {
+    position: relative;
+    height: 540px;
+  }
+
+  /* 説明文の枠 */
+  .product-explain {
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .product-explain > span {
+    color: #2710d5;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .product-explain > h3 {
+    margin: 10px 0;
+  }
+
+  .product-photo {
+    width: 100%;
+  }
+
+  #product-more > img {
+    margin: 0 0 -42px 20px;
+  }
 }
