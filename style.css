@@ -789,4 +789,49 @@ PC用のスタイル
   .vision-box > span > p {
     margin: 10px 0 0 0;
   }
+
+  /* 会社概要 */
+  #company {
+    margin: 0 20px;
+  }
+
+  #company > h3 {
+    margin-bottom: 20px;
+  }
+
+  #comupany > table {
+    width: 100%;
+  }
+
+  .tableheader-first {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #2710d5;
+    border-top: 1px solid #2710d5;
+    width: 50px;
+  }
+
+  .tableheader {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid #2710d5;
+    width: 50px;
+  }
+
+  .cell-first {
+    padding: 20px;
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+  }
+
+  .cell {
+    padding: 20px;
+    border-bottom: 1px solid #ececec;
+  }
+
+  #company > iframe {
+    width: 100%;
+    height: 240px;
+    margin-top: 40px;
+  }
 }
