@@ -541,6 +541,20 @@ PC用のスタイル
     left: 100px;
     font-size: 16px;
   }
+
+  #mission-s2dgs {
+    width: 100%;
+    margin: 20px;
+  }
+
+  .mission-h2 {
+    color: #2710d5;
+    font-size: 40px;
+  }
+
+  .mission-h2::after {
+    content: none;
+  }
 }
 
 /*====================
