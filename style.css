@@ -1171,6 +1171,7 @@ PC用のスタイル
 
   #sns-footer > a {
     margin-right: 30px;
+    text-decoration: none;
   }
 
   #copyright {
